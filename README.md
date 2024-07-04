@@ -1,0 +1,1 @@
+This is a Yugioh Card Detection Program made entirely with OpenCV library in python. It implements image processing algorithms in order to identify the input image of a Yugioh Card. This program implements color detection, thresholding, edge detection and different types of filtering in order to detect the correct type of card
