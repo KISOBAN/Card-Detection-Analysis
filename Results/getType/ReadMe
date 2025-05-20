@@ -4,5 +4,5 @@ Second: The image is converted from BGR to HSV (Hue Saturation Value)
 Third: A mask is created using the cv.InRange() function call. These take in a color boundary parameter specified in HSV notation and returns all the pixels that correspond to that boundary in white pixels
         It can be seen that the 'Normal' color boundary masking returns the most amount of white pixels so therefore this monster is a normal monster
 Fourth: The mask is bitwise ANDED with the original HSV image
-Fifth: The resulting image from Step 4 is converted back to BGR as shown in the NormalcolorBoundary.png in this folder
+Fifth: The resulting image from Step 4 is converted back to BGR
 
